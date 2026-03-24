@@ -1,4 +1,4 @@
-# Remote Control Center v4 (Client - Server)
+# Remote Control Center (Client - Server)
 
 Một dự án quản trị máy tính từ xa (Remote Control/Administration Tool) được viết hoàn toàn bằng **Python**, sử dụng giao diện đồ hoạ hiện đại **CustomTkinter** với tính năng tự động co dãn màn hình thông minh. Ứng dụng hoạt động theo mô hình Client-Server, cho phép kết nối, giám sát và điều khiển PC qua mạng LAN (hoặc qua Internet nếu cấu hình Port Forwarding/VPN).
 
@@ -63,7 +63,7 @@ Dự án được phân tách gọn gàng thành hai modules chính là `server`
 ## 🏗️ Cấu trúc thư mục
 
 ```
-RemoteControl_v4/
+RemoteControlApp/
 │
 ├── client/                     # Module mã nguồn cho Client
 │   ├── features/               # Các chức năng tách rời (Task Manager, Screen, File...)
